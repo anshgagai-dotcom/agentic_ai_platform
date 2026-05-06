@@ -48,4 +48,41 @@ This project implements a **verification loop** to reduce hallucinations in LLM 
 ---
 
 ## 📂 Project Structure
+agentic_ai_platform/
+│
+├── agents/
+│ ├── planner.py
+│ ├── executor.py
+│ ├── verifier.py
+│
+├── tools/
+│ └── search_tool.py
+│
+├── utils/
+│ └── prompts.py
+│
+├── app/
+│ └── main.py
+│
+├── frontend/
+│ └── streamlit_app.py
+│
+├── requirements.txt
+└── README.md
 
+
+---
+
+## ▶️ How to Run
+
+```bash
+git clone https://github.com/yourusername/agentic_ai_platform.git
+cd agentic_ai_platform
+
+python -m venv venv
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+uvicorn app.main:app --reload
+streamlit run frontend/streamlit_app.py
