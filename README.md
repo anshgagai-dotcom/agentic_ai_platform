@@ -87,7 +87,7 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 streamlit run frontend/streamlit_app.py
 
-
+https://github.com/anshgagai-dotcom/agentic_ai_platform.git
 
 
 <img width="1365" height="762" alt="screenshot" src="https://github.com/user-attachments/assets/390f0ff2-618e-4b11-843a-e18f81ed1f63" />
